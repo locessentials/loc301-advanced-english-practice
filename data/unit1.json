@@ -80,8 +80,7 @@
           "Highlight and explain the function of any modal or semi-modal verbs, noting register and formality",
           "Identify at least 5 verb phrases and explain their tense-aspect combinations",
           "Note at least 3 examples where lexical aspect affects the grammatical aspect choices"
-        ],
-        "points": 4
+        ]
       },
       {
         "taskNumber": 2,
@@ -91,8 +90,7 @@
         "deliverables": [
           "Your English translation (aim for naturalness and accuracy)",
           "Commentary explaining at least 5 verb-related translation decisions, including: modal/semi-modal choices, tense-aspect selections, and any challenges posed by lexical aspect differences between Spanish and English"
-        ],
-        "points": 4
+        ]
       },
       {
         "taskNumber": 3,
@@ -102,8 +100,7 @@
           "Identify the most challenging concept from Unit 1 and explain why it was difficult",
           "Provide an example demonstrating your group's current understanding of that concept",
           "Describe one way your understanding of the English verb system will impact your future work as translators/interpreters"
-        ],
-        "points": 2
+        ]
       }
     ],
     "submissionGuidelines": [
@@ -119,18 +116,23 @@
       "criteria": [
         {
           "category": "Task 1: Verb Analysis",
-          "points": 4,
+          "points": 3,
           "details": "Accuracy of verb identification and categorization; depth of modal/aspect analysis; clear understanding of concepts"
         },
         {
           "category": "Task 2: Translation & Commentary",
-          "points": 4,
+          "points": 3,
           "details": "Translation accuracy and naturalness; insightful commentary on verb-related decisions; demonstration of course concepts"
         },
         {
           "category": "Task 3: Group Reflection",
-          "points": 2,
+          "points": 3,
           "details": "Thoughtful identification of challenges; accurate demonstration of learning; connection to professional practice"
+        },
+        {
+          "category": "Overall Organization & Professionalism",
+          "points": 1,
+          "details": "The delivery demonstrates that careful attention was paid to design, reading flow, overall proofreading, organization and professional communication"
         }
       ],
       "total": 10

@@ -93,8 +93,7 @@
           "Provide the corrected passage with all errors fixed",
           "Create a numbered list identifying each error type and explaining the correction",
           "Discuss at least one error that your group debated and explain your reasoning for the final choice"
-        ],
-        "points": 4
+        ]
       },
       {
         "taskNumber": 2,
@@ -106,8 +105,7 @@
           "Highlight at least one effective reference chain showing how the author tracks a topic across multiple sentences",
           "Analyze the punctuation in 3-5 complex sentences, explaining how the author's choices affect meaning or emphasis",
           "Write a brief evaluation (150 words) of the overall cohesion: Is it effective? Too heavy-handed? Too sparse? How does it contribute to the professional tone?"
-        ],
-        "points": 4
+        ]
       },
       {
         "taskNumber": 3,
@@ -116,8 +114,7 @@
         "deliverables": [
           "Your polished composition (200-250 words)",
           "A brief commentary (100-150 words) identifying where you deliberately applied Unit 2 concepts: point out your uses of parallel structure, your punctuation choices, your cohesion devices, and how you ensured agreement throughout"
-        ],
-        "points": 2
+        ]
       }
     ],
     "submissionGuidelines": [

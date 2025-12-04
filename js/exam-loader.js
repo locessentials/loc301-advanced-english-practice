@@ -97,7 +97,7 @@ class ExamLoader {
     examContent.innerHTML = `
       ${exam.tasks.map(task => `
         <div style="margin: 2rem 0; padding: 1.5rem; background: var(--bg); border-left: 4px solid var(--primary-light);">
-          <h3 style="margin-top: 0; color: var(--primary);">Task ${task.taskNumber}: ${task.title} (${task.points} points)</h3>
+          <h3 style="margin-top: 0; color: var(--primary);">Task ${task.taskNumber}: ${task.title}</h3>
           <p>${task.instructions}</p>
           ${task.passage ? `
             <div class="example" style="margin: 1.5rem 0;">

@@ -38,17 +38,35 @@ class OutlineLoader {
     
     // Update outline with links
     const outlineList = document.getElementById('unit-outline');
-    outlineList.innerHTML = unit.outline
-      .map(item => {
-        // Extract week number from the outline string (e.g., "Week 1: ..." -> 1)
-        const weekMatch = item.match(/Week (\d+)/);
-        if (weekMatch) {
-          const weekNum = weekMatch[1];
-          return `<li><a href="week-template.html?week=${weekNum}&page=intro">${item}</a></li>`;
-        }
-        return `<li>${item}</li>`;
-      })
-      .join('');
+    
+    // Special handling for Unit 4 (Final Project)
+    if (unit.number === 4) {
+      outlineList.innerHTML = `
+        <li><a href="final-project-template.html?page=courseReview">Week 15: Course Review and Conclusions</a></li>
+        <li><a href="final-project-template.html?page=finalProject">Week 16: Final Project Presentations</a></li>
+        <li><a href="final-project-template.html?page=peerEvaluation">Week 17: Final Project Peer Evaluations</a></li>
+      `;
+    } else {
+      // Standard handling for Units 1-3
+      let outlineHTML = unit.outline
+        .map(item => {
+          // Extract week number from the outline string (e.g., "Week 1: ..." -> 1)
+          const weekMatch = item.match(/Week (\d+)/);
+          if (weekMatch) {
+            const weekNum = weekMatch[1];
+            return `<li><a href="week-template.html?week=${weekNum}&page=intro">${item}</a></li>`;
+          }
+          return `<li>${item}</li>`;
+        })
+        .join('');
+      
+      // Add exam link for Units 1 and 2
+      if (unit.number === 1 || unit.number === 2) {
+        outlineHTML += `<li style="font-weight: 600;"><a href="exam-template.html?unit=${unit.number}&page=review">Unit ${unit.number} Examination</a></li>`;
+      }
+      
+      outlineList.innerHTML = outlineHTML;
+    }
     
     // Update navigation buttons
     this.updateNavButtons(parseInt(index));

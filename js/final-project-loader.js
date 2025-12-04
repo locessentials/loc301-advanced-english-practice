@@ -57,7 +57,7 @@ class FinalProjectLoader {
         <div class="lecture-section">
           <h3>${unit.unit}</h3>
           <p><strong>Focus:</strong> ${unit.focus}</p>
-          <h4 style="font-size: 1.1rem; margin-top: 1rem; color: var(--primary);">Key Topics:</h4>
+          <h4>Key Topics:</h4>
           <ul class="list">
             ${unit.keyTopics.map(topic => `<li>${topic}</li>`).join('')}
           </ul>
@@ -97,48 +97,48 @@ class FinalProjectLoader {
       <p>Choose one of the following three project types for your group:</p>
       
       ${finalProject.projectOptions.map((option, index) => `
-        <div style="margin: 2rem 0; padding: 1.5rem; background: var(--bg); border-left: 4px solid var(--primary-light);">
-          <h4 style="margin-top: 0; color: var(--primary);">Option ${index + 1}: ${option.title}</h4>
+        <div class="lecture-section">
+          <h4 style="margin-top: 0;">Option ${index + 1}: ${option.title}</h4>
           <p>${option.description}</p>
-          <h5 style="font-size: 1rem; margin-top: 1.5rem; color: var(--primary);">Deliverables:</h5>
+          <h5 style="font-size: 1rem; margin-top: 1.5rem;">Deliverables:</h5>
           <ul class="list">
             ${option.deliverables.map(item => `<li>${item}</li>`).join('')}
           </ul>
         </div>
       `).join('')}
 
-      <div style="margin: 2.5rem 0;">
+      <div class="card">
         <h3>Presentation Guidelines</h3>
         <p>${finalProject.presentationGuidelines.overview}</p>
         
-        <h4 style="font-size: 1.1rem; margin-top: 1.5rem; color: var(--primary);">Suggested Structure:</h4>
+        <h4>Suggested Structure:</h4>
         <ul class="list">
           ${finalProject.presentationGuidelines.structureSuggestions.map(item => `
             <li>${item}</li>
           `).join('')}
         </ul>
 
-        <h4 style="font-size: 1.1rem; margin-top: 1.5rem; color: var(--primary);">Requirements:</h4>
+        <h4>Requirements:</h4>
         <ul class="list">
           ${finalProject.presentationGuidelines.requirements.map(req => `<li>${req}</li>`).join('')}
         </ul>
       </div>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: var(--bg); border-left: 4px solid var(--accent);">
-        <h4 style="margin-top: 0; color: var(--primary);">Presentation Tips</h4>
+      <div class="lecture-section" style="background: var(--bg);">
+        <h4 style="margin-top: 0;">Presentation Tips</h4>
         <ul class="list">
           ${finalProject.presentationGuidelines.tips.map(tip => `<li>${tip}</li>`).join('')}
         </ul>
       </div>
 
-      <div style="margin: 2rem 0;">
+      <div class="card">
         <h3>Submission Requirements</h3>
         <ul class="list">
           ${finalProject.submissionRequirements.map(req => `<li>${req}</li>`).join('')}
         </ul>
       </div>
 
-      <div style="margin: 2rem 0;">
+      <div class="card">
         <h3>Evaluation Criteria</h3>
         <p>${finalProject.evaluationCriteria.description}</p>
         <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
@@ -178,13 +178,13 @@ class FinalProjectLoader {
 
     const evaluationContent = document.getElementById('peerEvaluation-content');
     evaluationContent.innerHTML = `
-      <div class="lecture-section">
+      <div class="card">
         <h3>Evaluation Form</h3>
         <p>Complete this evaluation for each of the three projects assigned to you:</p>
         
         ${peerEvaluation.evaluationForm.sections.map(section => `
-          <div style="margin: 2rem 0; padding: 1.5rem; background: var(--bg); border-left: 3px solid var(--primary-light);">
-            <h4 style="margin-top: 0; color: var(--primary);">${section.section}</h4>
+          <div class="lecture-section" style="background: var(--bg);">
+            <h4 style="margin-top: 0;">${section.section}</h4>
             <ul class="list">
               ${section.prompts.map(prompt => `<li>${prompt}</li>`).join('')}
             </ul>
@@ -192,8 +192,8 @@ class FinalProjectLoader {
         `).join('')}
       </div>
 
-      <div class="lecture-section" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left: 4px solid var(--accent);">
-        <h3>Guidelines for Effective Peer Evaluation</h3>
+      <div class="lecture-section" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);">
+        <h3 style="margin-top: 0;">Guidelines for Effective Peer Evaluation</h3>
         <ul class="list">
           ${peerEvaluation.evaluationForm.guidelines.map(guideline => `<li>${guideline}</li>`).join('')}
         </ul>
