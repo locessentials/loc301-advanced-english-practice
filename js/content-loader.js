@@ -261,7 +261,7 @@ class ContentLoader {
       const nextWeek = parseInt(this.week) + 1;
       navButtons.innerHTML = `
         <a href="?week=${this.week}&page=intro" class="btn">← Back to Introduction</a>
-        <a href="?week=${nextWeek}&page=intro" class="btn btn-primary">Next Week →</a>
+        <a href="../index.html" class="btn btn-primary">Back to Home</a>
       `;
     }
   }

@@ -1,0 +1,161 @@
+{
+  "unit": 1,
+  "title": "Unit 1: Advanced Study of Verbs",
+  "breadcrumb": "Unit 1 Exam",
+  "review": {
+    "introduction": {
+      "overview": "Over the past five weeks, you've explored the English verb system in depth, moving beyond basic tense usage to understand the subtle distinctions that shape meaning in professional translation and interpretation work. This review synthesizes the major concepts from your study of verb types, modality, and the crucial distinction between tense and aspect.",
+      "objectives": [
+        "Consolidate understanding of verb classification systems and their application in translation",
+        "Review the nuanced differences between modal and semi-modal verbs across formality levels",
+        "Synthesize knowledge of tense-aspect interactions and their impact on temporal meaning",
+        "Prepare for the collaborative Unit 1 group examination"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Week 1: Verb Types and Their Functions",
+        "content": "You began by examining how verbs function grammatically and semantically. Understanding the difference between transitive and intransitive verbs helps you recognize argument structure—what elements a verb requires to be complete. Auxiliary verbs (be, have, do) and copulative verbs (be, seem, become) serve structural roles rather than conveying primary meaning. The distinction between action verbs (dynamic) and state verbs (stative) affects which aspects and tenses are acceptable: you can say 'I'm thinking about it' (mental action) but not typically 'I'm knowing the answer' (state).",
+        "keyTakeaways": [
+          "Transitive verbs require direct objects; intransitive verbs do not",
+          "Auxiliary verbs help form tenses, questions, and negatives",
+          "State verbs rarely appear in progressive aspect",
+          "Verb classification affects translation choices between languages with different systems"
+        ]
+      },
+      {
+        "heading": "Week 2: Modal and Semi-Modal Verbs",
+        "content": "Modal verbs (can, could, may, might, must, shall, should, will, would) express attitudes toward actions rather than actions themselves—conveying possibility, permission, obligation, ability, and more. Semi-modals (have to, need to, be able to, ought to, had better, be supposed to) perform similar functions but follow different grammatical rules: they conjugate for tense and person, require 'to' before infinitives, and form questions with do-support. The choice between must/have to/need to or should/ought to/had better depends on factors including formality, the source of obligation (internal vs. external), and the urgency of the situation.",
+        "keyTakeaways": [
+          "Pure modals don't conjugate; semi-modals do (has to, needed to)",
+          "Must = internal obligation; have to = external obligation; need to = practical necessity",
+          "Can = informal ability/permission; be able to = specific achievement or perfect tenses",
+          "Register awareness is crucial for appropriate modal selection in professional contexts"
+        ]
+      },
+      {
+        "heading": "Week 3: Aspect vs. Tense",
+        "content": "Tense locates events in time (past, present, future), while aspect describes the internal temporal structure of events—whether they're viewed as complete, ongoing, habitual, or at specific phases. English grammatical aspect includes simple (complete, habitual), progressive (ongoing), and perfect (completed with current relevance). The progressive emphasizes duration or temporariness, while the simple can indicate permanence or habit. The perfect creates a relationship between two time points. This distinction becomes crucial in translation: Spanish uses 'estar + gerundio' for progressive meaning, but the systems don't map one-to-one, requiring translators to understand the aspectual meaning being conveyed.",
+        "keyTakeaways": [
+          "Tense = when; aspect = how the event's internal time is structured",
+          "Progressive aspect emphasizes ongoing or temporary nature",
+          "Perfect aspect connects a past action to a present result or relevance",
+          "Languages structure aspect differently, creating translation challenges"
+        ]
+      },
+      {
+        "heading": "Week 4: Lexical Aspect",
+        "content": "Beyond grammatical aspect, verbs have inherent temporal characteristics called lexical aspect (Aktionsart). States (know, own) have no natural endpoint. Activities (run, swim) are processes without inherent completion points. Accomplishments (write a letter, paint a house) are processes with defined endpoints. Achievements (recognize, arrive) are instantaneous transitions. Lexical aspect interacts with grammatical aspect: achievements sound odd in progressive ('I'm arriving' is only acceptable in very limited contexts), while activities fit naturally ('I'm running'). Understanding lexical aspect helps translators recognize why certain verb-aspect combinations work in one language but not another.",
+        "keyTakeaways": [
+          "States: no duration, no endpoint (know, believe)",
+          "Activities: duration, no specific endpoint (swim, walk)",
+          "Accomplishments: duration with clear endpoint (build a house)",
+          "Achievements: instantaneous change of state (notice, win)",
+          "Lexical aspect constrains which grammatical aspects sound natural"
+        ]
+      }
+    ],
+    "studyTips": [
+      "Review your class exercise notebooks from weeks 1-5, focusing on areas where you struggled",
+      "Revisit quiz questions you found challenging and ensure you understand the explanations",
+      "Practice identifying verb types, modal meanings, and aspect in authentic texts",
+      "Discuss with your group members which concepts feel solid and which need clarification",
+      "Create example sentences that demonstrate the distinctions between similar concepts",
+      "Consider how these verb system concepts apply to Spanish-English translation challenges"
+    ]
+  },
+  "exam": {
+    "introduction": {
+      "overview": "This group examination asks you to apply your understanding of the English verb system to authentic translation and analysis challenges. Working collaboratively, you'll demonstrate your ability to identify verb structures, explain their meanings, and make informed translation decisions.",
+      "format": "Complete this exam with your assigned group (3-4 students). You have one week to complete the project. Submit one document per group with all members' names clearly listed."
+    },
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Verb Analysis in Context",
+        "instructions": "Select a 300-400 word passage from one of the following sources: a professional translation blog post, an academic article abstract in your field, or a formal business communication. Analyze the verb usage in your selected passage.",
+        "deliverables": [
+          "Provide the source passage with proper citation",
+          "Identify and categorize at least 10 different verbs according to type (transitive/intransitive, action/state, auxiliary/copulative)",
+          "Highlight and explain the function of any modal or semi-modal verbs, noting register and formality",
+          "Identify at least 5 verb phrases and explain their tense-aspect combinations",
+          "Note at least 3 examples where lexical aspect affects the grammatical aspect choices"
+        ],
+        "points": 4
+      },
+      {
+        "taskNumber": 2,
+        "title": "Translation Challenge: Verbs in Action",
+        "instructions": "Translate the following Spanish passage into English, paying particular attention to verb choices. Then provide commentary on your translation decisions.",
+        "passage": "Los traductores deben entender profundamente tanto el idioma de origen como el idioma meta. No basta con poder identificar las estructuras gramaticales; es necesario comprender cómo estas estructuras crean significado en contexto. Cuando estás traduciendo, estás tomando decisiones constantemente sobre cómo expresar no solo las palabras, sino las intenciones, el tono y las implicaciones del texto original. Un traductor profesional tiene que mantener la fidelidad al texto fuente mientras produce un texto natural en el idioma meta.",
+        "deliverables": [
+          "Your English translation (aim for naturalness and accuracy)",
+          "Commentary explaining at least 5 verb-related translation decisions, including: modal/semi-modal choices, tense-aspect selections, and any challenges posed by lexical aspect differences between Spanish and English"
+        ],
+        "points": 4
+      },
+      {
+        "taskNumber": 3,
+        "title": "Reflection on Unit 1 Learning",
+        "instructions": "As a group, reflect on your collective learning throughout Unit 1.",
+        "deliverables": [
+          "Identify the most challenging concept from Unit 1 and explain why it was difficult",
+          "Provide an example demonstrating your group's current understanding of that concept",
+          "Describe one way your understanding of the English verb system will impact your future work as translators/interpreters"
+        ],
+        "points": 2
+      }
+    ],
+    "submissionGuidelines": [
+      "Submit as a single document (PDF or Google Doc link)",
+      "Include all group members' full names on the first page",
+      "Use clear headings for each task",
+      "Proofread carefully—language accuracy matters for your grade",
+      "Cite all sources properly",
+      "Due: End of Week 5 (specific date provided by instructor)"
+    ],
+    "gradingCriteria": {
+      "description": "Your group project will be evaluated on the following criteria:",
+      "criteria": [
+        {
+          "category": "Task 1: Verb Analysis",
+          "points": 4,
+          "details": "Accuracy of verb identification and categorization; depth of modal/aspect analysis; clear understanding of concepts"
+        },
+        {
+          "category": "Task 2: Translation & Commentary",
+          "points": 4,
+          "details": "Translation accuracy and naturalness; insightful commentary on verb-related decisions; demonstration of course concepts"
+        },
+        {
+          "category": "Task 3: Group Reflection",
+          "points": 2,
+          "details": "Thoughtful identification of challenges; accurate demonstration of learning; connection to professional practice"
+        }
+      ],
+      "total": 10
+    }
+  },
+  "conclusion": {
+    "introduction": {
+      "message": "Congratulations on completing Unit 1! You've built a sophisticated understanding of the English verb system that goes far beyond basic grammar rules. This knowledge forms a crucial foundation for the precision and nuance required in professional translation and interpretation work."
+    },
+    "achievements": [
+      "You can now distinguish between verb types and understand how each functions within sentences",
+      "You've mastered the subtle differences between modals and semi-modals across registers",
+      "You understand that tense and aspect are separate systems working together",
+      "You can identify lexical aspect categories and predict how they interact with grammatical aspect",
+      "You've applied this knowledge to authentic translation challenges"
+    ],
+    "lookingAhead": {
+      "message": "Unit 2 shifts focus from the verb phrase to the broader architecture of texts. You'll explore how agreement, parallelism, punctuation, and cohesion devices create coherent, professional writing. These skills complement your verb knowledge, helping you produce translations that are not only accurate but also natural and well-structured.",
+      "preview": [
+        "Complex subject-verb and pronoun agreement patterns",
+        "Parallel structures for clarity and rhetorical effect",
+        "Advanced punctuation as a meaning-making tool",
+        "Cohesion devices that create texture and flow in English texts"
+      ]
+    },
+    "celebrateProgress": "Take a moment to appreciate how much your understanding of English has deepened. You're developing the analytical eye and linguistic precision that distinguishes professional translators and interpreters from casual language users."
+  }
+}

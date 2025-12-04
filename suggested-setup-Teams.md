@@ -13,6 +13,7 @@ Here is how your grade for attendance and participation will be distributed:
 - Unit 3: Attendance and Participation (Weeks 12-15)
 - Unit 4: Attendance and Participation (Weeks 16-17)
 Make sure your participation is reflected in our Class Exercises Notebook to get your points for attendance and participation.
+Class Exercises Notebook: [Link]
 
 ### Quizzes Assignment
 Quizzes are worth 10% of your final grade. To get a 10 out of 10 on quizzes, you'll need to make 3 deliveries:
@@ -28,6 +29,7 @@ Assignments consisting of your original work and your peer evaluation of a class
 Unit 1 - Assignments (Weeks 2-4 with 6 total points available)
 Unit 2 - Assignments (Weeks 6-10 with 10 total points available)
 Unit 3 - Assignments (Weeks 12-14 with 10 total points available)
+Class Assignments Notebook: [Link]
 
 ### Examinations Assignment
 Create separate assignments for:

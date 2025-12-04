@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TR31 Advanced English - Final Project</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" id="breadcrumbs">
+      <!-- Populated by JavaScript -->
+    </nav>
+
+    <!-- Page Title -->
+    <h1 id="page-title">Loading...</h1>
+
+    <!-- Course Review Page Content -->
+    <div id="courseReview-page" style="display: none;">
+      <div class="intro-section" id="courseReview-intro">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div id="courseReview-content">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="nav-buttons" id="courseReview-nav-buttons">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Final Project Page Content -->
+    <div id="finalProject-page" style="display: none;">
+      <div class="intro-section" id="finalProject-intro">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="card" id="finalProject-content">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="nav-buttons" id="finalProject-nav-buttons">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Peer Evaluation Page Content -->
+    <div id="peerEvaluation-page" style="display: none;">
+      <div class="intro-section" id="peerEvaluation-intro">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div id="peerEvaluation-content">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="nav-buttons" id="peerEvaluation-nav-buttons">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/final-project-loader.js"></script>
+  <script>
+    // Show the appropriate page section based on URL parameter
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const page = params.get('page') || 'courseReview';
+      
+      // Hide all page sections
+      document.querySelectorAll('[id$="-page"]').forEach(section => {
+        section.style.display = 'none';
+      });
+      
+      // Show the current page section
+      const pageId = page + '-page';
+      const pageElement = document.getElementById(pageId);
+      if (pageElement) {
+        pageElement.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

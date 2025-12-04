@@ -1,0 +1,216 @@
+{
+  "unit": 4,
+  "title": "Final Project",
+  "breadcrumb": "Final Project",
+  "courseReview": {
+    "introduction": {
+      "overview": "As we reach the culmination of TR31 Advanced English, it's time to reflect on your journey through three substantial units of content. You've explored the intricacies of the English verb system, mastered the features that create coherent and precise texts, and examined the pragmatic dimensions of language use. This final project asks you to demonstrate how these skills work together in authentic professional contexts.",
+      "objectives": [
+        "Synthesize learning from all three units into a comprehensive project",
+        "Apply advanced English concepts to real-world translation or localization challenges",
+        "Present your work professionally to peers and instructor",
+        "Evaluate peers' projects thoughtfully using appropriate metalanguage"
+      ]
+    },
+    "unitRecap": [
+      {
+        "unit": "Unit 1: Advanced Study of Verbs",
+        "focus": "The architecture of the English verb system",
+        "keyTopics": [
+          "Verb classification: transitive/intransitive, action/state, auxiliary/copulative",
+          "Modal and semi-modal verbs: expressing obligation, permission, ability, and advice across registers",
+          "Tense vs. aspect: separating time reference from internal temporal structure",
+          "Lexical aspect: how inherent verb meanings (states, activities, accomplishments, achievements) interact with grammatical aspect"
+        ]
+      },
+      {
+        "unit": "Unit 2: Coherence and Precision",
+        "focus": "Creating polished, professional English texts",
+        "keyTopics": [
+          "Complex agreement patterns: subject-verb and pronoun agreement in challenging contexts",
+          "Parallel structures: using consistent grammatical forms for clarity and rhetorical effect",
+          "Advanced punctuation: deploying colons, semicolons, dashes, and parentheses strategically",
+          "Cohesion devices: using connectors, reference chains, and lexical cohesion to create flow"
+        ]
+      },
+      {
+        "unit": "Unit 3: Pragmatics and Professional Language",
+        "focus": "Context, culture, and professional language use",
+        "keyTopics": [
+          "Phrasal verbs: understanding separable/inseparable types and literal/figurative meanings",
+          "Idiomatic expressions: recognizing cultural context and finding functional translation equivalents",
+          "Register and style: producing language appropriate to formality levels and contexts",
+          "Pragmatic awareness: making informed decisions that preserve communicative intent"
+        ]
+      }
+    ],
+    "reflectionPrompts": [
+      "Which unit challenged you most, and what breakthrough moments helped you overcome that challenge?",
+      "How has your understanding of English evolved beyond rules to include nuance and context?",
+      "In what ways do you notice these concepts when reading or listening to English now?",
+      "How will you continue developing your English proficiency beyond this course?",
+      "What aspects of your learning are you most proud of?"
+    ]
+  },
+  "finalProject": {
+    "introduction": {
+      "overview": "Your final project demonstrates your ability to integrate all course concepts into authentic professional work. Working in groups, you'll complete a substantial translation or localization project that showcases your mastery of English verb systems, textual coherence, and pragmatic awareness. You'll present your work to the class and evaluate your peers' projects.",
+      "timeline": "Week 15: Project guidelines released and group formation. Weeks 16-17: Project work, presentations, and peer evaluations."
+    },
+    "projectOptions": [
+      {
+        "title": "Translation Portfolio with Commentary",
+        "description": "Translate a cohesive set of 3-4 texts (total 800-1000 words of source material) from Spanish to English. Texts should come from a single professional domain (legal, medical, marketing, technical, literary, etc.) and present varying challenges.",
+        "deliverables": [
+          "Source texts with proper citations",
+          "Professional English translations",
+          "Commentary (600-800 words) analyzing your translation decisions across all three units: verb choices, maintenance of cohesion and coherence, handling of idiomatic language and register",
+          "Reflection on the specific challenges of your chosen domain"
+        ]
+      },
+      {
+        "title": "Localization Case Study",
+        "description": "Select an English-language website, app interface, marketing campaign, or product documentation (approximately 800-1000 words) that would need adaptation for Spanish-speaking markets. Analyze the source material and create a localization proposal.",
+        "deliverables": [
+          "Source material (screenshots, links, or text extracts)",
+          "Analysis (400-500 words) identifying linguistic and cultural challenges: idioms, phrasal verbs, register issues, cultural references",
+          "Sample localized version of 400-500 words of the source material",
+          "Strategy document (200-300 words) explaining your localization approach and key decisions"
+        ]
+      },
+      {
+        "title": "Comparative Language Analysis for Translators",
+        "description": "Create an educational resource for fellow translation students that compares English and Spanish in one area covered this semester. Your resource should teach others how to handle these specific challenges.",
+        "deliverables": [
+          "Comprehensive guide (1000-1200 words) explaining one of: verb aspect systems, modal verb equivalents, cohesion device preferences, or register and formality markers",
+          "10-15 parallel examples (English-Spanish) with annotations explaining the patterns",
+          "Practice exercises with answer keys (5-8 questions)",
+          "Translation tips and common pitfalls to avoid"
+        ]
+      }
+    ],
+    "presentationGuidelines": {
+      "overview": "Each group will present their final project to the class in a 10-12 minute presentation during Week 16.",
+      "structureSuggestions": [
+        "Introduction: Your project focus and why you chose it (1-2 minutes)",
+        "Process: Your approach and any challenges you encountered (2-3 minutes)",
+        "Showcase: Key examples demonstrating your application of course concepts (4-5 minutes)",
+        "Reflection: What you learned and how this project developed your skills (2-3 minutes)",
+        "Q&A: Brief time for questions from classmates and instructor (2-3 minutes)"
+      ],
+      "requirements": [
+        "All group members must participate in the presentation",
+        "Create visual support (slides, handouts, or other materials)",
+        "Demonstrate specific connections to course concepts from all three units",
+        "Speak clearly and professionally, managing your time effectively"
+      ],
+      "tips": [
+        "Practice your presentation together at least once before class",
+        "Prepare for potential questions about your decision-making process",
+        "Use specific examples rather than general statements",
+        "Show your work—let the class see your actual translations, analysis, or materials",
+        "Balance detail with accessibility—your classmates should be able to follow along"
+      ]
+    },
+    "submissionRequirements": [
+      "All written components in a single document (Google Doc link or PDF)",
+      "Group members' names clearly listed at the beginning",
+      "Proper citations for all source material",
+      "Professional formatting and careful proofreading",
+      "Presentation materials (slides or handouts) submitted separately",
+      "Individual reflection (150-200 words per person) on the group collaboration process"
+    ],
+    "evaluationCriteria": {
+      "description": "Your final project will be evaluated by the instructor on the following criteria (10 points total):",
+      "criteria": [
+        {
+          "category": "Integration of Course Concepts",
+          "points": 3,
+          "details": "Project demonstrates sophisticated application of verb system knowledge, attention to coherence and precision, and pragmatic awareness across all deliverables"
+        },
+        {
+          "category": "Quality of Analysis/Translation/Localization",
+          "points": 3,
+          "details": "Work is accurate, natural, and professionally polished; shows critical thinking and informed decision-making"
+        },
+        {
+          "category": "Presentation",
+          "points": 2,
+          "details": "Clear, organized, and engaging; all members contribute; time management is effective; visual supports enhance understanding"
+        },
+        {
+          "category": "Reflection and Metacognition",
+          "points": 1,
+          "details": "Commentary and reflection demonstrate genuine engagement with learning process and clear articulation of growth"
+        },
+        {
+          "category": "Professional Standards",
+          "points": 1,
+          "details": "Document is well-formatted, carefully proofread, properly cited; collaboration process is equitable and productive"
+        }
+      ]
+    }
+  },
+  "peerEvaluation": {
+    "introduction": {
+      "overview": "In Week 17, you'll complete peer evaluations for three other groups' final projects. This process gives you additional practice in critical analysis and helps you see the range of approaches your classmates took to the project. Your thoughtful evaluations also provide valuable feedback to your peers.",
+      "instructions": "You'll be assigned three projects to evaluate. For each, review all submitted materials (written work and presentation) and complete the evaluation form below."
+    },
+    "evaluationForm": {
+      "sections": [
+        {
+          "section": "Project Overview",
+          "prompts": [
+            "Briefly summarize the project's focus and main goals",
+            "What approach did this group take to demonstrate their learning?"
+          ]
+        },
+        {
+          "section": "Strengths",
+          "prompts": [
+            "Identify at least three specific strengths of this project. Be concrete—reference particular examples, decisions, or moments in their presentation.",
+            "What did this group do particularly well in applying course concepts?",
+            "What aspects of their work were most impressive or insightful?"
+          ]
+        },
+        {
+          "section": "Constructive Feedback",
+          "prompts": [
+            "Identify one or two areas where this project could be strengthened. Be specific and supportive.",
+            "Were there missed opportunities to apply course concepts more deeply?",
+            "How might they have approached any challenges differently?"
+          ]
+        },
+        {
+          "section": "Learning from Peers",
+          "prompts": [
+            "What did you learn from this group's project?",
+            "What ideas or approaches from their work might you apply in your own future translation/interpretation work?",
+            "What questions did their work raise for you?"
+          ]
+        }
+      ],
+      "guidelines": [
+        "Be specific: reference concrete examples rather than making general statements",
+        "Be balanced: acknowledge both strengths and areas for growth",
+        "Be professional: feedback should be constructive and respectful",
+        "Be thorough: aim for 200-300 words total per project evaluation",
+        "Use course concepts: reference relevant terminology and frameworks from the course"
+      ]
+    },
+    "submissionRequirements": [
+      "Complete evaluation forms for all three assigned projects",
+      "Submit as a single document with your name and all evaluated groups clearly labeled",
+      "Due by the end of Week 17"
+    ],
+    "yourGrade": {
+      "description": "Peer evaluations are part of your final exam grade. You'll be evaluated on:",
+      "components": [
+        "Completion: Did you evaluate all three assigned projects?",
+        "Thoughtfulness: Are your comments specific, detailed, and substantive?",
+        "Use of metalanguage: Do you reference course concepts appropriately?",
+        "Professionalism: Is your feedback constructive and respectfully worded?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "unit": 2,
+  "title": "Unit 2: Coherence and Precision",
+  "breadcrumb": "Unit 2 Exam",
+  "review": {
+    "introduction": {
+      "overview": "Unit 2 has equipped you with tools for creating polished, professional English texts. You've studied the grammatical and textual features that ensure clarity at the sentence level (agreement, parallelism) and coherence across longer passages (punctuation, cohesion). These skills are essential for translators who must produce target-language texts that read naturally and professionally.",
+      "objectives": [
+        "Review complex agreement patterns that challenge non-native speakers",
+        "Consolidate understanding of parallel structures and their rhetorical effects",
+        "Synthesize knowledge of advanced punctuation strategies",
+        "Master the use of cohesion devices for creating well-structured texts"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Week 6: Subject-Verb Agreement",
+        "content": "While basic subject-verb agreement is straightforward, challenging contexts create opportunities for error. Collective nouns (team, committee, government) can take singular or plural verbs depending on whether the group acts as a unit or as individuals. Indefinite pronouns vary: some are always singular (everyone, nobody), some always plural (both, many), and some depend on context (none, all, some). Inverted structures (There are..., Rarely does...) and compound subjects with correlative conjunctions (either...or, neither...nor) require careful attention. In translation, these patterns don't always correspond across languages—Spanish often treats collective nouns differently than English does.",
+        "keyTakeaways": [
+          "Collective nouns: singular for unity, plural for individual members",
+          "Indefinite pronouns follow specific patterns (everyone is, both are)",
+          "In 'either...or' sentences, verb agrees with the closest subject",
+          "Inverted structures still follow agreement rules (There are problems)",
+          "Agreement errors undermine credibility in professional writing"
+        ]
+      },
+      {
+        "heading": "Week 7: Pronoun Agreement & Reference Chains",
+        "content": "Pronouns must agree with their antecedents in number, gender, and person, but identifying the antecedent isn't always simple. Indefinite pronouns like 'everyone' are grammatically singular but semantically plural, creating tension with the traditional 'he or she' solution. Modern professional writing increasingly uses 'they' as a singular pronoun. Beyond agreement, pronouns create reference chains that guide readers through texts. Unclear pronoun reference (ambiguous 'it,' 'this,' or 'they') forces readers to work harder and can create misunderstanding—particularly problematic in legal or technical translation where precision is essential.",
+        "keyTakeaways": [
+          "Pronouns must have clear, unambiguous antecedents",
+          "Singular 'they' is now accepted in professional and academic contexts",
+          "Reference chains create cohesion by connecting ideas across sentences",
+          "Vague 'this,' 'it,' and 'which' can create ambiguity",
+          "In translation, managing reference across languages requires strategic thinking"
+        ]
+      },
+      {
+        "heading": "Week 8: Parallel Structures",
+        "content": "Parallelism means using the same grammatical structure for coordinate elements (items in a list, parts of a comparison, elements joined by correlative conjunctions). Parallel structures create rhythm, emphasize relationships between ideas, and make texts easier to process. Non-parallel constructions feel awkward: 'She enjoys reading, to write, and swimming' lacks the elegance of 'She enjoys reading, writing, and swimming.' Parallelism matters especially in formal contexts—academic writing, professional reports, marketing copy. For translators, maintaining parallel structures in the target language requires sometimes restructuring sentences rather than translating word-by-word.",
+        "keyTakeaways": [
+          "Elements in a list must share the same grammatical structure",
+          "Correlative conjunctions (not only...but also) require parallel elements",
+          "Parallel structures enhance clarity and create rhetorical emphasis",
+          "Breaking parallelism usually signals careless writing",
+          "Translation may require restructuring to maintain parallelism in the target language"
+        ]
+      },
+      {
+        "heading": "Week 9: Advanced Punctuation",
+        "content": "Punctuation does more than mark pauses—it clarifies relationships between ideas and controls pacing. Colons introduce explanations or lists and create anticipation. Semicolons connect closely related independent clauses, showing a tighter relationship than a period but maintaining independence that a comma can't provide. Dashes (em-dashes) emphasize or insert information with more drama than parentheses. Parentheses downplay information, suggesting 'by the way' material. In translation between languages with different punctuation conventions (Spanish uses more commas; English often prefers more periods for short sentences), these tools help create target texts that follow appropriate conventions while preserving meaning and emphasis.",
+        "keyTakeaways": [
+          "Colons introduce and create expectation; semicolons connect related independent clauses",
+          "Dashes emphasize; parentheses downplay",
+          "Punctuation choices affect meaning, not just correctness",
+          "Overusing semicolons or dashes can feel overwrought",
+          "Different languages have different punctuation conventions and preferences"
+        ]
+      },
+      {
+        "heading": "Week 10: Cohesion Devices",
+        "content": "Cohesion devices are the glue that holds texts together. Connectors (however, therefore, meanwhile) show logical relationships between sentences and paragraphs. Reference words (pronouns, demonstratives, the definite article 'the') link back to previous information. Lexical chains use related words (car → vehicle → it; doctor → physician → she) to maintain topics across sentences without repetition. Substitution (one, do so) and ellipsis (omitting repeated elements) prevent wordiness. Skilled writers use cohesion devices transparently—readers feel the text flows naturally without noticing the specific mechanisms. Translators must recreate this flow in the target language, which may require different strategies.",
+        "keyTakeaways": [
+          "Connectors show relationships: addition, contrast, cause-effect, time sequence",
+          "Reference chains maintain topics without excessive repetition",
+          "Lexical cohesion uses related words to create semantic connections",
+          "Too few cohesion devices create choppy writing; too many can feel heavy-handed",
+          "Cohesion strategies vary across languages and cultures"
+        ]
+      }
+    ],
+    "studyTips": [
+      "Review corrected exercises from weeks 6-10, understanding why errors occurred",
+      "Practice identifying cohesion devices in newspaper articles or academic abstracts",
+      "Read your own writing aloud to catch agreement errors and non-parallel structures",
+      "Analyze punctuation choices in professional texts from your field",
+      "Work with your group to create examples demonstrating proper agreement and parallelism",
+      "Compare English and Spanish texts to observe cohesion differences"
+    ]
+  },
+  "exam": {
+    "introduction": {
+      "overview": "This group examination asks you to demonstrate mastery of the grammatical and textual features that create coherent, professional English writing. You'll analyze authentic texts, correct problematic passages, and produce polished writing that showcases your understanding of agreement, parallelism, punctuation, and cohesion.",
+      "format": "Complete this exam with your assigned group (3-4 students). You have one week to complete the project. Submit one document per group with all members' names clearly listed."
+    },
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Error Analysis and Correction",
+        "instructions": "The following passage contains multiple errors related to subject-verb agreement, pronoun agreement and reference, parallel structure, and punctuation. As a group, identify and correct all errors, then explain your corrections.",
+        "passage": "Every translator face unique challenges in their work. The team of translators were asked to not only complete the project quickly but also maintaining high quality. There was several issues with the source document that needed addressing. Each of the translators have their own approach to handling ambiguity—some consults reference materials extensively while others relies on instinct and experience. Neither the project manager nor the translators was satisfied with the timeline. When reviewing translations, you must check for accuracy, ensuring consistency, and that the tone is appropriate. The committee have decided to revise their guidelines however they haven't announced when this will happen. Everyone needs to make sure they proofread their work carefully, its essential for maintaining credibility.",
+        "deliverables": [
+          "Provide the corrected passage with all errors fixed",
+          "Create a numbered list identifying each error type and explaining the correction",
+          "Discuss at least one error that your group debated and explain your reasoning for the final choice"
+        ],
+        "points": 4
+      },
+      {
+        "taskNumber": 2,
+        "title": "Cohesion Analysis",
+        "instructions": "Select a well-written 300-400 word passage from a professional source (article, blog post, business communication, or academic abstract in your field). Analyze how the author creates cohesion throughout the text.",
+        "deliverables": [
+          "Provide the source passage with proper citation",
+          "Identify and label at least 10 cohesion devices, categorizing them (connectors, reference chains, lexical cohesion, substitution/ellipsis)",
+          "Highlight at least one effective reference chain showing how the author tracks a topic across multiple sentences",
+          "Analyze the punctuation in 3-5 complex sentences, explaining how the author's choices affect meaning or emphasis",
+          "Write a brief evaluation (150 words) of the overall cohesion: Is it effective? Too heavy-handed? Too sparse? How does it contribute to the professional tone?"
+        ],
+        "points": 4
+      },
+      {
+        "taskNumber": 3,
+        "title": "Polished Writing Application",
+        "instructions": "As a group, compose a 200-250 word professional text on one of the following topics: (a) advice for students entering translation/interpretation programs, (b) the importance of specialized knowledge in professional translation, or (c) challenges and solutions in collaborative translation projects. Your writing must demonstrate mastery of all Unit 2 concepts.",
+        "deliverables": [
+          "Your polished composition (200-250 words)",
+          "A brief commentary (100-150 words) identifying where you deliberately applied Unit 2 concepts: point out your uses of parallel structure, your punctuation choices, your cohesion devices, and how you ensured agreement throughout"
+        ],
+        "points": 2
+      }
+    ],
+    "submissionGuidelines": [
+      "Submit as a single document (PDF or Google Doc link)",
+      "Include all group members' full names on the first page",
+      "Use clear headings for each task",
+      "Proofread meticulously—errors in a unit about precision are particularly problematic",
+      "Cite all sources properly",
+      "Due: End of Week 11 (specific date provided by instructor)"
+    ],
+    "gradingCriteria": {
+      "description": "Your group project will be evaluated on the following criteria:",
+      "criteria": [
+        {
+          "category": "Task 1: Error Correction & Analysis",
+          "points": 4,
+          "details": "Accurate identification and correction of all errors; clear explanations demonstrating understanding; thoughtful discussion of debated point"
+        },
+        {
+          "category": "Task 2: Cohesion Analysis",
+          "points": 4,
+          "details": "Thorough identification and categorization of cohesion devices; insightful analysis of reference chains and punctuation; evaluative commentary demonstrates critical understanding"
+        },
+        {
+          "category": "Task 3: Polished Writing",
+          "points": 2,
+          "details": "Writing is clear, professional, and error-free; deliberate application of Unit 2 concepts; effective self-reflection in commentary"
+        }
+      ],
+      "total": 10
+    }
+  },
+  "conclusion": {
+    "introduction": {
+      "message": "Congratulations on completing Unit 2! You've developed a sophisticated understanding of what makes English writing clear, precise, and professional. These skills go beyond avoiding errors—they help you craft texts that guide readers smoothly through ideas and maintain credibility in professional contexts."
+    },
+    "achievements": [
+      "You can now navigate complex agreement situations with confidence",
+      "You understand how pronoun reference chains create cohesion across texts",
+      "You've mastered parallel structures and recognize their rhetorical power",
+      "You can use advanced punctuation strategically to clarify meaning and control emphasis",
+      "You can analyze and produce cohesive texts using appropriate linguistic devices"
+    ],
+    "lookingAhead": {
+      "message": "Unit 3 explores the pragmatic dimension of English—how context, culture, and social relationships shape language choices. You'll study phrasal verbs, idiomatic expressions, and register variation, all crucial for translation work that must navigate not just linguistic but cultural differences.",
+      "preview": [
+        "Phrasal verbs: their challenge for translation and strategies for mastery",
+        "Idiomatic expressions as cultural artifacts",
+        "Register and style variation across professional contexts",
+        "Pragmatic awareness for effective translation and localization decisions"
+      ]
+    },
+    "celebrateProgress": "You've moved from studying verbs (Unit 1) to studying how entire texts work. You can now not only understand complex English structures but also produce writing that meets professional standards. This is the foundation of excellent translation work."
+  }
+}

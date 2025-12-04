@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TR31 Advanced English</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" id="breadcrumbs">
+      <!-- Populated by JavaScript -->
+    </nav>
+
+    <!-- Page Title -->
+    <h1 id="page-title">Loading...</h1>
+
+    <!-- Review Page Content -->
+    <div id="review-page" style="display: none;">
+      <div class="intro-section" id="review-intro">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div id="review-content">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="nav-buttons" id="review-nav-buttons">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Exam Page Content -->
+    <div id="exam-page" style="display: none;">
+      <div class="intro-section" id="exam-intro">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="card" id="exam-content">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="nav-buttons" id="exam-nav-buttons">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Conclusion Page Content -->
+    <div id="conclusion-page" style="display: none;">
+      <div class="intro-section" id="conclusion-intro">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div id="conclusion-content">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="nav-buttons" id="conclusion-nav-buttons">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/exam-loader.js"></script>
+  <script>
+    // Show the appropriate page section based on URL parameter
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const page = params.get('page') || 'review';
+      
+      // Hide all page sections
+      document.querySelectorAll('[id$="-page"]').forEach(section => {
+        section.style.display = 'none';
+      });
+      
+      // Show the current page section
+      const pageId = page + '-page';
+      const pageElement = document.getElementById(pageId);
+      if (pageElement) {
+        pageElement.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

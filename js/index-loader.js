@@ -26,16 +26,34 @@ async function loadCourseTopics() {
           <h3>${unit.title}</h3>
           <ul class="list">`;
       
-      unit.outline.forEach(item => {
-        // Extract week number from outline string
-        const weekMatch = item.match(/Week (\d+)/);
-        if (weekMatch) {
-          const weekNum = weekMatch[1];
-          topicsHTML += `<li><a href="templates/week-template.html?week=${weekNum}&page=intro">${item}</a></li>`;
-        } else {
-          topicsHTML += `<li>${item}</li>`;
+      // Special handling for Unit 4 (Final Project)
+      if (unit.number === 4) {
+        // Week 15: Course Review
+        topicsHTML += `<li><a href="templates/final-project-template.html?page=courseReview">Week 15: Course Review and Conclusions</a></li>`;
+        
+        // Week 16: Final Project
+        topicsHTML += `<li><a href="templates/final-project-template.html?page=finalProject">Week 16: Final Project Presentations</a></li>`;
+        
+        // Week 17: Peer Evaluations
+        topicsHTML += `<li><a href="templates/final-project-template.html?page=peerEvaluation">Week 17: Final Project Peer Evaluations</a></li>`;
+      } else {
+        // Standard handling for Units 1-3
+        unit.outline.forEach(item => {
+          // Extract week number from outline string
+          const weekMatch = item.match(/Week (\d+)/);
+          if (weekMatch) {
+            const weekNum = weekMatch[1];
+            topicsHTML += `<li><a href="templates/week-template.html?week=${weekNum}&page=intro">${item}</a></li>`;
+          } else {
+            topicsHTML += `<li>${item}</li>`;
+          }
+        });
+        
+        // Add exam link for Units 1 and 2
+        if (unit.number === 1 || unit.number === 2) {
+          topicsHTML += `<li style="font-weight: 600;"><a href="templates/exam-template.html?unit=${unit.number}&page=review">Unit ${unit.number} Examination</a></li>`;
         }
-      });
+      }
       
       topicsHTML += '</ul></div>';
     });
