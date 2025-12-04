@@ -72,11 +72,45 @@ function submitQuiz() {
     return;
   }
   
-  // Check correctness
+  // Get week number from URL
+  const params = new URLSearchParams(window.location.search);
+  const week = params.get('week') || '1';
+  
+  // Check correctness and mark each question
   let correctCount = 0;
   questions.forEach((question, index) => {
-    if (answers[index] === question.correct) {
+    const isCorrect = answers[index] === question.correct;
+    if (isCorrect) {
       correctCount++;
+    }
+    
+    // Mark the selected option as correct or incorrect
+    const optionsList = document.querySelector(`[data-quiz="${index}"]`);
+    const selectedLi = optionsList.querySelector('.selected');
+    
+    if (selectedLi) {
+      selectedLi.classList.remove('selected');
+      selectedLi.classList.add(isCorrect ? 'correct' : 'incorrect');
+    }
+    
+    // Also highlight the correct answer if user got it wrong
+    if (!isCorrect) {
+      const correctOptionIndex = question.options.indexOf(question.correct);
+      const correctLi = optionsList.querySelector(`[data-option="${correctOptionIndex}"]`);
+      if (correctLi) {
+        correctLi.classList.add('correct');
+      }
+    }
+    
+    // Show explanation if available
+    if (question.explanation) {
+      const questionDiv = optionsList.closest('.quiz-question');
+      const explanationDiv = document.createElement('div');
+      explanationDiv.className = `explanation show ${isCorrect ? 'correct-explanation' : 'incorrect-explanation'}`;
+      explanationDiv.innerHTML = isCorrect 
+        ? `✓ Correct! ${question.explanation}`
+        : `✗ ${question.explanation}`;
+      questionDiv.appendChild(explanationDiv);
     }
   });
   
@@ -87,7 +121,7 @@ function submitQuiz() {
     resultDiv.className = 'quiz-result success show';
     resultDiv.innerHTML = `
       <h2>🎉 Excellent Work!</h2>
-      <p>You got all 3 questions correct!</p>
+      <p>You got 3 questions correct in a row on the Week ${week} Quiz!</p>
       <p>You've demonstrated strong understanding of this week's concepts.</p>
     `;
     
@@ -98,14 +132,19 @@ function submitQuiz() {
     resultDiv.innerHTML = `
       <h2>Not quite there yet</h2>
       <p>You got ${correctCount} out of 3 correct.</p>
-      <p>Review the material and try again. Each attempt helps strengthen your understanding!</p>
+      <p>Review the incorrect questions above and try again. Each attempt helps strengthen your understanding!</p>
       <button class="btn btn-again" onclick="location.reload()">Try Again</button>
     `;
   }
   
-  // Disable submit button
+  // Disable submit button and all quiz options
   event.target.disabled = true;
   event.target.style.opacity = '0.5';
+  
+  // Disable clicking on options after submission
+  document.querySelectorAll('[data-quiz]').forEach(list => {
+    list.style.pointerEvents = 'none';
+  });
 }
 
 // Assignment - Option selection (visual feedback only)
