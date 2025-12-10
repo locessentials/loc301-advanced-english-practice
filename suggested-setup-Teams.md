@@ -1,8 +1,3 @@
-## Teams Space
-- Just provide a QR code or a signup link
-- Do not take on the responsibility of adding students manually
-- Select an easily identifiable icon
-
 ## Teams Channels
 #Introductions
 #FinalProjects
