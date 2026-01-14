@@ -1,4 +1,4 @@
-# Advanced English Course Site
+# Eng301: Advanced English Practice Course Site
 
 A lean, data-driven course website system built with vanilla JavaScript, HTML, and CSS.
 
