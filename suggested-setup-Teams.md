@@ -45,7 +45,7 @@ Create separate assignments for:
 #### Final Project Presentation
 About your delivery:
 STEP 1
-Follow these instructions to produce your final project: https://alainamb.github.io/english-practice/templates/final-project-template.html?page=finalProject
+Follow these instructions to produce your final project: [https://alainamb.github.io/english-practice/templates/final-project-template.html?page=finalProject](https://eng301.locessentials.com/templates/final-project-template.html?page=finalProject)
 
 STEP 2
 After you've finished your project, prepare to have it peer reviewed.
@@ -69,7 +69,7 @@ Your classmates will sign up to peer review your work as a comment upon your pos
 Not following these delivery steps will result in point deductions from your grade.
 
 #### Final Project Peer Evaluations
-Follow these instructions when producing your final evaluations: https://alainamb.github.io/english-practice/templates/final-project-template.html?page=peerEvaluation
+Follow these instructions when producing your final evaluations: https://eng301.locessentials.com/templates/final-project-template.html?page=peerEvaluation
 
 Sign up for 3 peer reviews by commenting upon posts for the projects that interest you. Fill out one copy of the attached worksheet per project that you evaluate.
 Name each copy: YourLastNames_PeerEval_Author1LastNames-Author2LastNames
